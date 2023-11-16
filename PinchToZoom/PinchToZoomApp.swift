@@ -23,7 +23,6 @@ struct PinchToZoomApp: App {
 }
 
 
-
 extension View {
 	func addPinchToZoom() -> some View {
 		return PinchZoomContext {
@@ -56,12 +55,13 @@ struct PinchZoomContext<Content: View>: View {
 						ZoomGesture(size: size, scale: $scale, offset: $offset, scalePosition: $scalePosition)
 					}
 				}
-				.scaleEffect(1 + scale, anchor: .init(x: scalePosition.x, y: scalePosition.y))
+//				.scaleEffect(1 + scale, anchor: .init(x: scalePosition.x, y: scalePosition.y))
+				.scaleEffect(1 + scale)
 		} else {
 			ZStack {
 				content
 					.offset(x: offset.x, y: offset.y)
-					.scaleEffect(1 + scale, anchor: .init(x: scalePosition.x, y: scalePosition.y))
+					.scaleEffect(1 + scale)
 					.clipped()
 				
 				Rectangle()
