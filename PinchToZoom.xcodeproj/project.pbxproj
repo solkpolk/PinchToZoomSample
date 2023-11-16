@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F701C4D42B06B67800E0F7E0 /* PinchToZoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F701C4D32B06B67800E0F7E0 /* PinchToZoomApp.swift */; };
-		F701C4D62B06B67800E0F7E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F701C4D52B06B67800E0F7E0 /* ContentView.swift */; };
 		F701C4D82B06B67900E0F7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F701C4D72B06B67900E0F7E0 /* Assets.xcassets */; };
 		F701C4DB2B06B67900E0F7E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F701C4DA2B06B67900E0F7E0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		F701C4D02B06B67800E0F7E0 /* PinchToZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchToZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F701C4D32B06B67800E0F7E0 /* PinchToZoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchToZoomApp.swift; sourceTree = "<group>"; };
-		F701C4D52B06B67800E0F7E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F701C4D72B06B67900E0F7E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F701C4DA2B06B67900E0F7E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				F701C4D32B06B67800E0F7E0 /* PinchToZoomApp.swift */,
-				F701C4D52B06B67800E0F7E0 /* ContentView.swift */,
 				F701C4D72B06B67900E0F7E0 /* Assets.xcassets */,
 				F701C4D92B06B67900E0F7E0 /* Preview Content */,
 			);
@@ -137,7 +134,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F701C4D62B06B67800E0F7E0 /* ContentView.swift in Sources */,
 				F701C4D42B06B67800E0F7E0 /* PinchToZoomApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
